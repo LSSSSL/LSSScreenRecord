@@ -14,7 +14,7 @@
 		011985E41E793C4100C9655C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011985E31E793C4100C9655C /* Assets.xcassets */; };
 		011985E71E793C4100C9655C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011985E51E793C4100C9655C /* LaunchScreen.storyboard */; };
 		011985FA1E79519400C9655C /* LSSVideoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 011985F91E79519400C9655C /* LSSVideoRecord.m */; };
-		50919B01206CD334009C7B56 /* Image.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 50919B00206CD334009C7B56 /* Image.mp4 */; };
+		50919B05206CD5CD009C7B56 /* Images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50919B04206CD5CD009C7B56 /* Images.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		011985E81E793C4100C9655C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011985F81E79519400C9655C /* LSSVideoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSVideoRecord.h; sourceTree = "<group>"; };
 		011985F91E79519400C9655C /* LSSVideoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSVideoRecord.m; sourceTree = "<group>"; };
-		50919B00206CD334009C7B56 /* Image.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Image.mp4; sourceTree = "<group>"; };
+		50919B04206CD5CD009C7B56 /* Images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Images.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		011985D61E793C4100C9655C /* LSSVideoRecord */ = {
 			isa = PBXGroup;
 			children = (
-				50919B00206CD334009C7B56 /* Image.mp4 */,
+				50919B04206CD5CD009C7B56 /* Images.png */,
 				011985EE1E793C4C00C9655C /* Recorder */,
 				011985DA1E793C4100C9655C /* AppDelegate.h */,
 				011985DB1E793C4100C9655C /* AppDelegate.m */,
@@ -157,7 +157,7 @@
 				011985E71E793C4100C9655C /* LaunchScreen.storyboard in Resources */,
 				011985E41E793C4100C9655C /* Assets.xcassets in Resources */,
 				011985E21E793C4100C9655C /* Main.storyboard in Resources */,
-				50919B01206CD334009C7B56 /* Image.mp4 in Resources */,
+				50919B05206CD5CD009C7B56 /* Images.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
