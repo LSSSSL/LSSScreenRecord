@@ -13,5 +13,4 @@
 #pragma mark-暂停录制/继续录制
 -(void)PauseRecording;
 ```
- 
-![image](https://github.com/LSSSSL/LSSPieChart/blob/master/PieChart/PieChart/Image.png)
+![image](https://github.com/LSSSSL/LSSScreenRecord/blob/master/LSSVideoRecord/LSSVideoRecord/Images.png)
