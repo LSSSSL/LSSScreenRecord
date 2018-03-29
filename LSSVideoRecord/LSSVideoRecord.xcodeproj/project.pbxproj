@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011985D91E793C4100C9655C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 011985D81E793C4100C9655C /* main.m */; };
+		011985DC1E793C4100C9655C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 011985DB1E793C4100C9655C /* AppDelegate.m */; };
+		011985DF1E793C4100C9655C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011985DE1E793C4100C9655C /* ViewController.m */; };
+		011985E21E793C4100C9655C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011985E01E793C4100C9655C /* Main.storyboard */; };
+		011985E41E793C4100C9655C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011985E31E793C4100C9655C /* Assets.xcassets */; };
+		011985E71E793C4100C9655C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011985E51E793C4100C9655C /* LaunchScreen.storyboard */; };
+		011985FA1E79519400C9655C /* LSSVideoRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 011985F91E79519400C9655C /* LSSVideoRecord.m */; };
+		50919B01206CD334009C7B56 /* Image.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 50919B00206CD334009C7B56 /* Image.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		011985D41E793C4100C9655C /* LSSVideoRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSSVideoRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		011985D81E793C4100C9655C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		011985DA1E793C4100C9655C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		011985DB1E793C4100C9655C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		011985DD1E793C4100C9655C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		011985DE1E793C4100C9655C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		011985E11E793C4100C9655C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		011985E31E793C4100C9655C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011985E61E793C4100C9655C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		011985E81E793C4100C9655C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011985F81E79519400C9655C /* LSSVideoRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSVideoRecord.h; sourceTree = "<group>"; };
+		011985F91E79519400C9655C /* LSSVideoRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSVideoRecord.m; sourceTree = "<group>"; };
+		50919B00206CD334009C7B56 /* Image.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Image.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		011985D11E793C4100C9655C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		011985CB1E793C4100C9655C = {
+			isa = PBXGroup;
+			children = (
+				011985D61E793C4100C9655C /* LSSVideoRecord */,
+				011985D51E793C4100C9655C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		011985D51E793C4100C9655C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				011985D41E793C4100C9655C /* LSSVideoRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		011985D61E793C4100C9655C /* LSSVideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				50919B00206CD334009C7B56 /* Image.mp4 */,
+				011985EE1E793C4C00C9655C /* Recorder */,
+				011985DA1E793C4100C9655C /* AppDelegate.h */,
+				011985DB1E793C4100C9655C /* AppDelegate.m */,
+				011985DD1E793C4100C9655C /* ViewController.h */,
+				011985DE1E793C4100C9655C /* ViewController.m */,
+				011985E01E793C4100C9655C /* Main.storyboard */,
+				011985E31E793C4100C9655C /* Assets.xcassets */,
+				011985E51E793C4100C9655C /* LaunchScreen.storyboard */,
+				011985E81E793C4100C9655C /* Info.plist */,
+				011985D71E793C4100C9655C /* Supporting Files */,
+			);
+			path = LSSVideoRecord;
+			sourceTree = "<group>";
+		};
+		011985D71E793C4100C9655C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				011985D81E793C4100C9655C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		011985EE1E793C4C00C9655C /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				011985F81E79519400C9655C /* LSSVideoRecord.h */,
+				011985F91E79519400C9655C /* LSSVideoRecord.m */,
+			);
+			name = Recorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		011985D31E793C4100C9655C /* LSSVideoRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011985EB1E793C4100C9655C /* Build configuration list for PBXNativeTarget "LSSVideoRecord" */;
+			buildPhases = (
+				011985D01E793C4100C9655C /* Sources */,
+				011985D11E793C4100C9655C /* Frameworks */,
+				011985D21E793C4100C9655C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSSVideoRecord;
+			productName = LSSVideoRecord;
+			productReference = 011985D41E793C4100C9655C /* LSSVideoRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		011985CC1E793C4100C9655C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liuss;
+				TargetAttributes = {
+					011985D31E793C4100C9655C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E8XN8F5354;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 011985CF1E793C4100C9655C /* Build configuration list for PBXProject "LSSVideoRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 011985CB1E793C4100C9655C;
+			productRefGroup = 011985D51E793C4100C9655C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				011985D31E793C4100C9655C /* LSSVideoRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		011985D21E793C4100C9655C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011985E71E793C4100C9655C /* LaunchScreen.storyboard in Resources */,
+				011985E41E793C4100C9655C /* Assets.xcassets in Resources */,
+				011985E21E793C4100C9655C /* Main.storyboard in Resources */,
+				50919B01206CD334009C7B56 /* Image.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011985D01E793C4100C9655C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011985DF1E793C4100C9655C /* ViewController.m in Sources */,
+				011985DC1E793C4100C9655C /* AppDelegate.m in Sources */,
+				011985FA1E79519400C9655C /* LSSVideoRecord.m in Sources */,
+				011985D91E793C4100C9655C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		011985E01E793C4100C9655C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011985E11E793C4100C9655C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		011985E51E793C4100C9655C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				011985E61E793C4100C9655C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		011985E91E793C4100C9655C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		011985EA1E793C4100C9655C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		011985EC1E793C4100C9655C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8XN8F5354;
+				INFOPLIST_FILE = LSSVideoRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.co-insight.LSSVideoRecord";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		011985ED1E793C4100C9655C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8XN8F5354;
+				INFOPLIST_FILE = LSSVideoRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.co-insight.LSSVideoRecord";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		011985CF1E793C4100C9655C /* Build configuration list for PBXProject "LSSVideoRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011985E91E793C4100C9655C /* Debug */,
+				011985EA1E793C4100C9655C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011985EB1E793C4100C9655C /* Build configuration list for PBXNativeTarget "LSSVideoRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011985EC1E793C4100C9655C /* Debug */,
+				011985ED1E793C4100C9655C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 011985CC1E793C4100C9655C /* Project object */;
+}
